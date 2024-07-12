@@ -1,0 +1,153 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     box-sizing: border-box;
+     background-image: url(../img/Blend\ Group\ 1.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     box-sizing: border-box;
+
+}
+.container{
+     max-width: 1400px;
+     width: 100%;
+     display: flex;
+     gap: 20px;
+     /* margin: 15px; */
+}
+.wraper{
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding: 20px 30px;
+     box-sizing: border-box;
+    /* background-color: gray; */
+    /* height: auto; */
+}
+.registratsiya{
+     width: 60%;
+     box-sizing: border-box;
+     padding: 38px 106px;
+     background-color: rgba(36, 36, 36, 1);
+     display: flex;
+     flex-direction: column;
+}
+.text{
+     display: flex;
+     gap: 0px;
+     flex-direction: column;
+}
+.text h1{
+     font-size: 32px;
+     line-height: 48px;
+     font-weight: 700;
+     color: rgb(255, 255, 255, 1);
+}
+.text p{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      color: rgba(127, 127, 127, 1);
+}
+.inputs{
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.inputs input{
+     padding: 5px 8px;
+     border: 1px solid rgba(61, 61, 61, 1);
+     background-color: transparent;
+     /* outline: none; */
+     color: #fff;
+}
+.inputs .checkbox-and{
+     display: flex;
+     gap: 10px;
+     color: rgba(127, 127, 127, 1);
+}
+.inputs .checkbox-and input{
+     outline: none;
+}
+
+.btn{
+     display: flex;
+     flex-direction: column;
+     margin-top: 25px;
+     gap: 25px;
+}
+.btn button{
+     width: 150px;
+     height: 28px;
+     border: none;
+     border-radius: 5px;
+     background-color: rgba(75, 114, 194, 1);
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 600;
+     color: #fff;
+     transition: all 0.4s;
+}
+button:hover{
+     background-color: #fff;
+     color: rgba(75, 114, 194, 1);
+}
+.btn .div{
+     width: 100%;
+     border: 1px solid rgba(61, 61, 61, 1);
+}
+.btn p{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: rgba(127, 127, 127, 1);
+     display: flex;
+     gap: 10px;
+}
+
+a{
+     text-decoration: none;
+     color: rgba(75, 114, 194, 1);
+     transition: all 0.4s;
+     display: flex;
+     align-items: center;
+}
+a:hover{
+     color: red;
+}
+
+
+.card{
+     width: 100%;
+     padding: 20px 30px;
+     box-sizing: border-box;
+     border: 2px solid black;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
